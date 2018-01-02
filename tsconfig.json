@@ -5,9 +5,10 @@
     "module": "commonjs",
     "strict": true,
     "removeComments": true,
+    "declaration": true,
     "outDir": "dist"
   },
   "include": [
-    "lib/**/*.ts"
+    "lib/**/*"
   ]
 }

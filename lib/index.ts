@@ -2,6 +2,7 @@ const M = 0x80000000; // 2^31
 const A = 1103515245;
 const C = 12345;
 
+// Deterministic pseudorandom number generator
 export class Random {
 
   // Current state of the random number generator

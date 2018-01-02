@@ -2,6 +2,7 @@
   "name": "@mousepox/random",
   "description": "Deterministic pseudorandom number generator",
   "version": "0.1.0",
+  "license": "ISC",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

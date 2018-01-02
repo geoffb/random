@@ -1,12 +1,18 @@
 {
   "name": "@mousepox/random",
+  "description": "Deterministic pseudorandom number generator",
   "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc"
   },
   "devDependencies": {
     "typescript": "^2.6.2"
-  }
+  },
+  "author": "Geoff Blair <gmblair@gmail.com>",
+  "repository": "github:geoffb/random"
 }

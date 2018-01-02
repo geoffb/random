@@ -7,8 +7,8 @@ export class Random {
   // Current state of the random number generator
   state: number;
 
-  constructor () {
-    this.reset();
+  constructor (seed?: number) {
+    this.reset(seed);
   }
 
   // Resets the random number state
